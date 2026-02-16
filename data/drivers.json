@@ -1,34 +1,34 @@
 [
-{"id":1,"name":"Max Verstappen","number":3,"team":"Red Bull Racing","country":"Netherlands","rookie":false,"image":"{css,js,data,images}/images/drivers/max_verstappen.png"},
-{"id":2,"name":"Isack Hadjar","number":6,"team":"Red Bull Racing","country":"France","rookie":false,"image":"{css,js,data,images}/images/drivers/isack_hadjar.png"},
+{"id":1,"name":"Max Verstappen","number":3,"team":"Red Bull Racing","flag":"{css,js,data,images}/images/country_flags/netherlands.png","country":"Netherlands","rookie":false,"image":"{css,js,data,images}/images/drivers/max_verstappen.png"},
+{"id":2,"name":"Isack Hadjar","number":6,"team":"Red Bull Racing","flag":"{css,js,data,images}/images/country_flags/france.png","country":"France","rookie":false,"image":"{css,js,data,images}/images/drivers/isack_hadjar.png"},
 
-{"id":3,"name":"Charles Leclerc","number":16,"team":"Ferrari","country":"Monaco","rookie":false,"image":"{css,js,data,images}/images/drivers/charles_leclerc.png"},
-{"id":4,"name":"Lewis Hamilton","number":44,"team":"Ferrari","country":"United Kingdom","rookie":false,"image":"{css,js,data,images}/images/drivers/lewis_hamilton.png"},
+{"id":3,"name":"Charles Leclerc","number":16,"team":"Ferrari","flag":"{css,js,data,images}/images/country_flags/monaco.png","country":"Monaco","rookie":false,"image":"{css,js,data,images}/images/drivers/charles_leclerc.png"},
+{"id":4,"name":"Lewis Hamilton","number":44,"team":"Ferrari","flag":"{css,js,data,images}/images/country_flags/united-kingdom.png","country":"United Kingdom","rookie":false,"image":"{css,js,data,images}/images/drivers/lewis_hamilton.png"},
 
-{"id":5,"name":"George Russell","number":63,"team":"Mercedes","country":"United Kingdom","rookie":false,"image":"{css,js,data,images}/images/drivers/george_russell.png"},
-{"id":6,"name":"Kimi Antonelli","number":12,"team":"Mercedes","country":"Italy","rookie":false,"image":"{css,js,data,images}/images/drivers/kimi_antonelli.png"},
+{"id":5,"name":"George Russell","number":63,"team":"Mercedes","flag":"{css,js,data,images}/images/country_flags/united-kingdom.png","country":"United Kingdom","rookie":false,"image":"{css,js,data,images}/images/drivers/george_russell.png"},
+{"id":6,"name":"Kimi Antonelli","number":12,"team":"Mercedes","flag":"{css,js,data,images}/images/country_flags/italy.png","country":"Italy","rookie":false,"image":"{css,js,data,images}/images/drivers/kimi_antonelli.png"},
 
-{"id":7,"name":"Lando Norris","number":1,"team":"McLaren","country":"United Kingdom","rookie":false,"image":"{css,js,data,images}/images/drivers/lando_norris.png"},
-{"id":8,"name":"Oscar Piastri","number":81,"team":"McLaren","country":"Australia","rookie":false,"image":"{css,js,data,images}/images/drivers/oscar_piastri.png"},
+{"id":7,"name":"Lando Norris","number":1,"team":"McLaren","flag":"{css,js,data,images}/images/country_flags/united-kingdom.png","country":"United Kingdom","rookie":false,"image":"{css,js,data,images}/images/drivers/lando_norris.png"},
+{"id":8,"name":"Oscar Piastri","number":81,"team":"McLaren","flag":"{css,js,data,images}/images/country_flags/australia.png","country":"Australia","rookie":false,"image":"{css,js,data,images}/images/drivers/oscar_piastri.png"},
 
-{"id":9,"name":"Fernando Alonso","number":14,"team":"Aston Martin","country":"Spain","rookie":false,"image":"{css,js,data,images}/images/drivers/fernando_alonso.png"},
-{"id":10,"name":"Lance Stroll","number":18,"team":"Aston Martin","country":"Canada","rookie":false,"image":"{css,js,data,images}/images/drivers/lance_stroll.png"},
+{"id":9,"name":"Fernando Alonso","number":14,"team":"Aston Martin","flag":"{css,js,data,images}/images/country_flags/spain.png","country":"Spain","rookie":false,"image":"{css,js,data,images}/images/drivers/fernando_alonso.png"},
+{"id":10,"name":"Lance Stroll","number":18,"team":"Aston Martin","flag":"{css,js,data,images}/images/country_flags/canada.png","country":"Canada","rookie":false,"image":"{css,js,data,images}/images/drivers/lance_stroll.png"},
 
-{"id":11,"name":"Pierre Gasly","number":10,"team":"Alpine","country":"France","rookie":false,"image":"{css,js,data,images}/images/drivers/pierre_gasly.png"},
-{"id":12,"name":"Franco Colapinto","number":43,"team":"Alpine","country":"Argentina","rookie":false,"image":"{css,js,data,images}/images/drivers/franco_colapinto.png"},
+{"id":11,"name":"Pierre Gasly","number":10,"team":"Alpine","flag":"{css,js,data,images}/images/country_flags/france.png","country":"France","rookie":false,"image":"{css,js,data,images}/images/drivers/pierre_gasly.png"},
+{"id":12,"name":"Franco Colapinto","number":43,"team":"Alpine","flag":"{css,js,data,images}/images/country_flags/argentina.png","country":"Argentina","rookie":false,"image":"{css,js,data,images}/images/drivers/franco_colapinto.png"},
 
-{"id":13,"name":"Esteban Ocon","number":31,"team":"Haas","country":"France","rookie":false,"image":"{css,js,data,images}/images/drivers/esteban_ocon.png"},
-{"id":14,"name":"Oliver Bearman","number":87,"team":"Haas","country":"United Kingdom","rookie":false,"image":"{css,js,data,images}/images/drivers/oliver_bearman.png"},
+{"id":13,"name":"Esteban Ocon","number":31,"team":"Haas","flag":"{css,js,data,images}/images/country_flags/france.png","country":"France","rookie":false,"image":"{css,js,data,images}/images/drivers/esteban_ocon.png"},
+{"id":14,"name":"Oliver Bearman","number":87,"team":"Haas","flag":"{css,js,data,images}/images/country_flags/united-kingdom.png","country":"United Kingdom","rookie":false,"image":"{css,js,data,images}/images/drivers/oliver_bearman.png"},
 
-{"id":15,"name":"Alex Albon","number":23,"team":"Williams","country":"Thailand","rookie":false,"image":"{css,js,data,images}/images/drivers/alex_albon.png"},
-{"id":16,"name":"Carlos Sainz","number":55,"team":"Williams","country":"Spain","rookie":false,"image":"{css,js,data,images}/images/drivers/carlos_sainz.png"},
+{"id":15,"name":"Alex Albon","number":23,"team":"Williams","flag":"{css,js,data,images}/images/country_flags/thailand.png","country":"Thailand","rookie":false,"image":"{css,js,data,images}/images/drivers/alex_albon.png"},
+{"id":16,"name":"Carlos Sainz","number":55,"team":"Williams","flag":"{css,js,data,images}/images/country_flags/spain.png","country":"Spain","rookie":false,"image":"{css,js,data,images}/images/drivers/carlos_sainz.png"},
 
-{"id":17,"name":"Nico Hülkenberg","number":27,"team":"Audi","country":"Germany","rookie":false,"image":"{css,js,data,images}/images/drivers/nico_hulkenberg.png"},
-{"id":18,"name":"Gabriel Bortoleto","number":5,"team":"Audi","country":"Brazil","rookie":false,"image":"{css,js,data,images}/images/drivers/gabriel_bortoleto.png"},
+{"id":17,"name":"Nico Hülkenberg","number":27,"team":"Audi","flag":"{css,js,data,images}/images/country_flags/germany.png","country":"Germany","rookie":false,"image":"{css,js,data,images}/images/drivers/nico_hulkenberg.png"},
+{"id":18,"name":"Gabriel Bortoleto","number":5,"team":"Audi","flag":"{css,js,data,images}/images/country_flags/brazil.png","country":"Brazil","rookie":false,"image":"{css,js,data,images}/images/drivers/gabriel_bortoleto.png"},
 
-{"id":19,"name":"Liam Lawson","number":30,"team":"Racing Bulls","country":"New Zealand","rookie":false,"image":"{css,js,data,images}/images/drivers/liam_lawson.png"},
-{"id":20,"name":"Arvid Lindblad","number":41,"team":"Racing Bulls","country":"United Kingdom","rookie":true,"image":"{css,js,data,images}/images/drivers/arvid_lindblad.png"},
+{"id":19,"name":"Liam Lawson","number":30,"team":"Racing Bulls","flag":"{css,js,data,images}/images/country_flags/new-zealand.png","country":"New Zealand","rookie":false,"image":"{css,js,data,images}/images/drivers/liam_lawson.png"},
+{"id":20,"name":"Arvid Lindblad","number":41,"team":"Racing Bulls","flag":"{css,js,data,images}/images/country_flags/united-kingdom.png","country":"United Kingdom","rookie":true,"image":"{css,js,data,images}/images/drivers/arvid_lindblad.png"},
 
-{"id":21,"name":"Sergio Pérez","number":11,"team":"Cadillac","country":"Mexico","rookie":false,"image":"{css,js,data,images}/images/drivers/sergio_perez.png"},
-{"id":22,"name":"Valtteri Bottas","number":77,"team":"Cadillac","country":"Finland","rookie":false,"image":"{css,js,data,images}/images/drivers/valtteri_bottas.png"}
+{"id":21,"name":"Sergio Pérez","number":11,"team":"Cadillac","flag":"{css,js,data,images}/images/country_flags/mexico.png","country":"Mexico","rookie":false,"image":"{css,js,data,images}/images/drivers/sergio_perez.png"},
+{"id":22,"name":"Valtteri Bottas","number":77,"team":"Cadillac","flag":"{css,js,data,images}/images/country_flags/finland.png","country":"Finland","rookie":false,"image":"{css,js,data,images}/images/drivers/valtteri_bottas.png"}
 ]

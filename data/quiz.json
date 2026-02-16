@@ -11,8 +11,8 @@
     },
     {
         "question": "How many teams compete in Formula 1?",
-        "answers": ["8 teams", "10 teams", "12 teams", "14 teams"],
-        "correct": 1
+        "answers": ["8 teams", "10 teams", "11 teams", "16 teams"],
+        "correct": 2
     },
     {
         "question": "Which circuit is known as the 'Temple of Speed'?",
@@ -27,7 +27,7 @@
     {
         "question": "How many drivers start in each F1 race?",
         "answers": ["18 drivers", "20 drivers", "22 drivers", "24 drivers"],
-        "correct": 1
+        "correct": 2
     },
     {
         "question": "What is the minimum weight for an F1 car with driver?",
@@ -41,7 +41,7 @@
     },
     {
         "question": "How many rounds are in the qualifying session?",
-        "answers": ["2 rounds (Q1, Q2)", "3 rounds (Q1, Q2, Q3)", "4 rounds", "5 rounds"],
+        "answers": ["2 rounds (Q1, Q2)", "3 rounds (Q1, Q2, Q3)", "4 rounds Q1, Q2, Q3, Q4)", "5 rounds Q1, Q2, Q3, Q4, Q5)"],
         "correct": 1
     },
     {

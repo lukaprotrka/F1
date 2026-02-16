@@ -36,7 +36,10 @@ function displayDrivers(drivers) {
             <div class="driver-info">
                 <h3 class="driver-name">${driver.name}</h3>
                 <p class="driver-team">${driver.team}</p>
-                <p class="driver-country">🌍 ${driver.country}</p>
+                <p class="driver-country">
+                    <img src="${driver.flag}" alt="${driver.country}" class="flag-icon">
+                    ${driver.country}
+                </p>
             </div>
         `;
         

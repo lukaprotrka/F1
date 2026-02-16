@@ -868,6 +868,14 @@ a {
     color: var(--text-secondary);
     font-size: 0.9rem;
 }
+.flag-icon {
+    width: 14px;
+    height: 9px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
 
 /* ===================================
    Tracks Section
