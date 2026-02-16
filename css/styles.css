@@ -465,8 +465,17 @@ a {
 }
 
 .intro-icon {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 1rem auto;
+}
+
+.intro-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 .intro-card h3 {
@@ -479,6 +488,7 @@ a {
     color: var(--text-secondary);
     line-height: 1.8;
 }
+
 
 /* ===================================
    Page Title
@@ -736,6 +746,11 @@ a {
 .concept-card p {
     color: var(--text-secondary);
     line-height: 1.8;
+}
+.concept-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
 }
 
 /* ===================================
