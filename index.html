@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula 1 Guide - The Ultimate F1 Experience</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="theme-icon">🌙</span>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="nav" id="mainNav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo" data-page="home">
+                <span class="logo-text">F1<span class="logo-accent">GUIDE</span></span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active" data-page="home">Home</a></li>
+                <li><a href="#guide" class="nav-link" data-page="guide">Beginner Guide</a></li>
+                <li><a href="#drivers" class="nav-link" data-page="drivers">Drivers & Teams</a></li>
+                <li><a href="#tracks" class="nav-link" data-page="tracks">Tracks</a></li>
+                <li><a href="#quiz" class="nav-link" data-page="quiz">Quiz</a></li>
+                <li><a href="#dictionary" class="nav-link" data-page="dictionary">Dictionary</a></li>
+                <li><a href="#car" class="nav-link" data-page="car">Car Guide</a></li>
+                <li><a href="#contact" class="nav-link" data-page="contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Page -->
+        <section id="home" class="page active">
+            <div class="hero">
+                <div class="hero-background"></div>
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="title-line">Welcome to</span>
+                        <span class="title-line accent">Formula 1</span>
+                    </h1>
+                    <p class="hero-subtitle">The pinnacle of motorsport. Speed, precision, and engineering excellence.</p>
+                    <div class="hero-cta">
+                        <button class="btn btn-primary" data-navigate="guide">Start Learning</button>
+                        <button class="btn btn-secondary" data-navigate="quiz">Test Your Knowledge</button>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-value">24</div>
+                        <div class="stat-label">Race Tracks</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">22</div>
+                        <div class="stat-label">Drivers</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">11</div>
+                        <div class="stat-label">Teams</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="intro-section">
+                <div class="container">
+                    <h2 class="section-title">What is Formula 1?</h2>
+                    <div class="intro-grid">
+                        <div class="intro-card">
+                            <div class="intro-icon">🏎️</div>
+                            <h3>The Ultimate Racing</h3>
+                            <p>Formula 1 is the highest class of international racing for single-seater formula racing cars. It combines cutting-edge technology, skilled drivers, and strategic brilliance.</p>
+                        </div>
+                        <div class="intro-card">
+                            <div class="intro-icon">⚡</div>
+                            <h3>Speed & Innovation</h3>
+                            <p>F1 cars can reach speeds over 370 km/h and feature the most advanced automotive technology in the world, from hybrid power units to active aerodynamics.</p>
+                        </div>
+                        <div class="intro-card">
+                            <div class="intro-icon">🌍</div>
+                            <h3>Global Championship</h3>
+                            <p>The season spans multiple continents with races in iconic locations, from Monaco's streets to Monza's historic circuit, creating a truly global spectacle.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Beginner Guide Page -->
+        <section id="guide" class="page">
+            <div class="container">
+                <h1 class="page-title">Beginner's Guide to F1</h1>
+                
+                <!-- Race Format -->
+                <div class="guide-section">
+                    <h2 class="section-title">Race Weekend Format</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker">1</div>
+                            <div class="timeline-content">
+                                <h3>Practice Sessions</h3>
+                                <p>Three practice sessions (FP1, FP2, FP3) allow teams to test setups and gather data about tire performance and car balance.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker">2</div>
+                            <div class="timeline-content">
+                                <h3>Sprint Qualifying (6 per season)</h3>
+                                <p>Three knockout rounds (SQ1, SQ2, SQ3) determine the starting grid. The fastest driver in SQ3 earns pole position for the sprint race. Held instead of FP2.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker">3</div>
+                            <div class="timeline-content">
+                                <h3>Sprint Race (6 per season)</h3>
+                                <p>A shorter race on Saturday, only 100km. Top 8 finishers get points. Held instead of FP3.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker">4</div>
+                            <div class="timeline-content">
+                                <h3>Qualifying</h3>
+                                <p>Three knockout rounds (Q1, Q2, Q3) determine the starting grid. The fastest driver in Q3 earns pole position.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker">5</div>
+                            <div class="timeline-content">
+                                <h3>Race Day</h3>
+                                <p>The main event where drivers compete for points. Races are approximately 305 km (except Monaco at 260 km).</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- Tire Types -->
+                <div class="guide-section">
+                    <h2 class="section-title">Tire Compounds</h2>
+                    <div class="tire-grid" id="tireGrid">
+                        <!-- Tires will be loaded from JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Flags -->
+                <div class="guide-section">
+                    <h2 class="section-title">F1 Flags</h2>
+                    <div class="flags-grid" id="flagsGrid">
+                        <!-- Flags will be loaded from JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Key Concepts -->
+                <div class="guide-section">
+                    <h2 class="section-title">Key Concepts</h2>
+                    <div class="concepts-grid">
+                        <div class="concept-card">
+                            <h3>⚡ Overtake Mode</h3>
+                            <p>An overtaking aid replacing DRS from 2026. It gives the driver extra electric deployment and switches the car into a low‑drag aero state on straights, increasing acceleration and top speed. Activation is tied to energy limits rather than proximity rules or fixed zones.</p>
+                        </div>
+                        <div class="concept-card">
+                            <h3>🔧 Pit Stops</h3>
+                            <p>Strategic stops to change tires, make adjustments, or repair damage. Teams can change all four tires in under 2 seconds. Tire strategy is crucial for race outcomes.</p>
+                        </div>
+                        <div class="concept-card">
+                            <h3>🚗 Safety Car</h3>
+                            <p>Deployed during dangerous conditions to slow the field. Drivers must stay behind the Safety Car and cannot overtake. Often triggers strategic pit stop windows.</p>
+                        </div>
+                        <div class="concept-card">
+                            <h3>🏁 Points System</h3>
+                            <p>Top 10 finishers score points:<br> 1st - 25<br> 2nd - 18<br> 3rd - 15<br> 4th - 12<br> 5th - 10<br> 6th - 8<br> 7th - 6<br> 8th - 4<br> 9th - 2<br> 10th - 1<br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Drivers & Teams Page -->
+        <section id="drivers" class="page">
+            <div class="container">
+                <h1 class="page-title">Drivers & Teams</h1>
+                
+                <div class="team-filter">
+                    <button class="filter-btn active" data-team="all">All Teams</button>
+                    <div id="teamFilters">
+                        <!-- Team filters will be generated dynamically -->
+                    </div>
+                </div>
+
+                <div class="drivers-grid" id="driversGrid">
+                    <!-- Drivers will be loaded from JSON -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Tracks & Calendar Page -->
+        <section id="tracks" class="page">
+            <div class="container">
+                <h1 class="page-title">2026 F1 Calendar</h1>
+                
+                <div class="month-filter">
+                    <button class="filter-btn active" data-month="all">All Races</button>
+                    <button class="filter-btn" data-month="3">March</button>
+                    <button class="filter-btn" data-month="4">April</button>
+                    <button class="filter-btn" data-month="5">May</button>
+                    <button class="filter-btn" data-month="6">June</button>
+                    <button class="filter-btn" data-month="7">July</button>
+                    <button class="filter-btn" data-month="8">August</button>
+                    <button class="filter-btn" data-month="9">September</button>
+                    <button class="filter-btn" data-month="10">October</button>
+                    <button class="filter-btn" data-month="11">November</button>
+                </div>
+
+                <div class="tracks-grid" id="tracksGrid">
+                    <!-- Tracks will be loaded from JSON -->
+                </div>
+            </div>
+
+            <!-- Track Detail Modal -->
+            <div class="modal" id="trackModal">
+                <div class="modal-content">
+                    <button class="modal-close" id="closeTrackModal">&times;</button>
+                    <div id="trackDetail">
+                        <!-- Track details will be inserted here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quiz Page -->
+        <section id="quiz" class="page">
+            <div class="container">
+                <h1 class="page-title">F1 Knowledge Quiz</h1>
+                
+                <div class="quiz-container" id="quizContainer">
+                    <div class="quiz-start" id="quizStart">
+                        <div class="quiz-intro">
+                            <h2>Test Your F1 Knowledge!</h2>
+                            <p>Answer 10 questions about Formula 1 and see how well you know the sport.</p>
+                            <div class="quiz-stats">
+                                <div class="quiz-stat">
+                                    <span class="stat-value" id="bestScore">0</span>
+                                    <span class="stat-label">Best Score</span>
+                                </div>
+                                <div class="quiz-stat">
+                                    <span class="stat-value" id="quizzesTaken">0</span>
+                                    <span class="stat-label">Quizzes Taken</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary" id="startQuiz">Start Quiz</button>
+                        </div>
+                    </div>
+
+                    <div class="quiz-active" id="quizActive" style="display: none;">
+                        <div class="quiz-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="progressFill"></div>
+                            </div>
+                            <div class="progress-text">Question <span id="currentQuestion">1</span> of <span id="totalQuestions">10</span></div>
+                        </div>
+
+                        <div class="question-card">
+                            <h3 class="question-text" id="questionText"></h3>
+                            <div class="answers-grid" id="answersGrid">
+                                <!-- Answers will be inserted here -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quiz-results" id="quizResults" style="display: none;">
+                        <div class="results-content">
+                            <h2>Quiz Complete!</h2>
+                            <div class="score-display">
+                                <div class="score-circle">
+                                    <span class="score-value" id="finalScore">0</span>
+                                    <span class="score-total">/10</span>
+                                </div>
+                            </div>
+                            <p class="score-message" id="scoreMessage"></p>
+                            <div class="results-actions">
+                                <button class="btn btn-primary" id="retakeQuiz">Try Again</button>
+                                <button class="btn btn-secondary" data-navigate="home">Back to Home</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dictionary Page -->
+        <section id="dictionary" class="page">
+            <div class="container">
+                <h1 class="page-title">F1 Dictionary</h1>
+                
+                <div class="search-box">
+                    <input type="text" id="dictionarySearch" placeholder="Search F1 terms..." class="search-input">
+                </div>
+
+                <div class="dictionary-grid" id="dictionaryGrid">
+                    <!-- Dictionary terms will be loaded from JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Car Guide Page -->
+        <section id="car" class="page">
+            <div class="container">
+                <h1 class="page-title">Interactive F1 Car Guide</h1>
+                
+                <div class="car-guide-container">
+                    <div class="car-display">
+                        <svg viewBox="0 0 800 300" class="car-svg" id="carSvg">
+                            <!-- Front Wing -->
+                            <g class="car-part" data-part="front-wing">
+                                <rect x="50" y="140" width="80" height="20" fill="var(--accent-color)" />
+                                <rect x="40" y="135" width="20" height="30" fill="var(--accent-color)" />
+                            </g>
+                            
+                            <!-- Nose -->
+                            <g class="car-part" data-part="nose">
+                                <polygon points="130,145 200,140 200,160 130,155" fill="var(--text-primary)" />
+                            </g>
+                            
+                            <!-- Cockpit -->
+                            <g class="car-part" data-part="cockpit">
+                                <rect x="200" y="120" width="120" height="60" fill="var(--bg-secondary)" rx="5" />
+                                <rect x="220" y="130" width="80" height="40" fill="var(--bg-tertiary)" rx="3" />
+                            </g>
+                            
+                            <!-- Engine -->
+                            <g class="car-part" data-part="engine">
+                                <rect x="320" y="125" width="150" height="50" fill="var(--text-primary)" rx="3" />
+                            </g>
+                            
+                            <!-- Rear Wing -->
+                            <g class="car-part" data-part="rear-wing">
+                                <rect x="470" y="100" width="15" height="80" fill="var(--text-primary)" />
+                                <rect x="475" y="95" width="100" height="15" fill="var(--accent-color)" />
+                                <rect x="475" y="120" width="100" height="15" fill="var(--accent-color)" />
+                            </g>
+                            
+                            <!-- Front Tires -->
+                            <g class="car-part" data-part="tires">
+                                <circle cx="150" cy="190" r="30" fill="var(--text-secondary)" />
+                                <circle cx="150" cy="110" r="30" fill="var(--text-secondary)" />
+                            </g>
+                            
+                            <!-- Rear Tires -->
+                            <g class="car-part" data-part="tires">
+                                <circle cx="450" cy="195" r="35" fill="var(--text-secondary)" />
+                                <circle cx="450" cy="105" r="35" fill="var(--text-secondary)" />
+                            </g>
+                            
+                            <!-- Sidepods -->
+                            <g class="car-part" data-part="sidepods">
+                                <rect x="250" y="90" width="150" height="25" fill="var(--bg-secondary)" rx="5" />
+                                <rect x="250" y="185" width="150" height="25" fill="var(--bg-secondary)" rx="5" />
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="car-info" id="carInfo">
+                        <h2>Click on any car part to learn more</h2>
+                        <p>Explore the different components of a Formula 1 car and understand their functions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Page -->
+        <section id="contact" class="page">
+            <div class="container">
+                <h1 class="page-title">Get in Touch</h1>
+                
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Contact Information</h2>
+                        <p>Have questions about Formula 1? Want to suggest improvements to this guide? Feel free to reach out!</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">📧</div>
+                                <div>
+                                    <h3>Email</h3>
+                                    <p>f1guide@example.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">🌐</div>
+                                <div>
+                                    <h3>Social Media</h3>
+                                    <p>@F1Guide on all platforms</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-message" id="nameError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <input type="text" id="subject" name="subject" required>
+                                <span class="error-message" id="subjectError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                                <span class="error-message" id="messageError"></span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+
+                        <div class="form-success" id="formSuccess" style="display: none;">
+                            <div class="success-icon">✓</div>
+                            <h3>Message Sent!</h3>
+                            <p>Thank you for your message. We'll get back to you soon.</p>
+                            <button class="btn btn-secondary" id="sendAnother">Send Another Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>F1 Guide</h3>
+                    <p>Your comprehensive guide to Formula 1 racing</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home" data-page="home">Home</a></li>
+                        <li><a href="#guide" data-page="guide">Beginner Guide</a></li>
+                        <li><a href="#quiz" data-page="quiz">Quiz</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#dictionary" data-page="dictionary">Dictionary</a></li>
+                        <li><a href="#car" data-page="car">Car Guide</a></li>
+                        <li><a href="#contact" data-page="contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 F1 Guide. Educational project. Not affiliated with Formula 1.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/guide.js"></script>
+    <script src="js/drivers.js"></script>
+    <script src="js/tracks.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/dictionary.js"></script>
+    <script src="js/car.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>

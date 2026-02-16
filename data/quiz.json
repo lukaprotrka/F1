@@ -1,0 +1,102 @@
+[
+    {
+        "question": "How many points does the race winner receive?",
+        "answers": ["18 points", "20 points", "25 points", "30 points"],
+        "correct": 2
+    },
+    {
+        "question": "What does DRS stand for?",
+        "answers": ["Drag Reduction System", "Drive Response System", "Dynamic Racing System", "Direct Race Shift"],
+        "correct": 0
+    },
+    {
+        "question": "How many teams compete in Formula 1?",
+        "answers": ["8 teams", "10 teams", "12 teams", "14 teams"],
+        "correct": 1
+    },
+    {
+        "question": "Which circuit is known as the 'Temple of Speed'?",
+        "answers": ["Silverstone", "Spa-Francorchamps", "Monza", "Suzuka"],
+        "correct": 2
+    },
+    {
+        "question": "What color is the fastest tire compound?",
+        "answers": ["White (Hard)", "Yellow (Medium)", "Red (Soft)", "Green (Intermediate)"],
+        "correct": 2
+    },
+    {
+        "question": "How many drivers start in each F1 race?",
+        "answers": ["18 drivers", "20 drivers", "22 drivers", "24 drivers"],
+        "correct": 1
+    },
+    {
+        "question": "What is the minimum weight for an F1 car with driver?",
+        "answers": ["698 kg", "752 kg", "798 kg", "825 kg"],
+        "correct": 2
+    },
+    {
+        "question": "Which flag indicates a driver must let a faster car pass?",
+        "answers": ["Yellow flag", "Blue flag", "Green flag", "White flag"],
+        "correct": 1
+    },
+    {
+        "question": "How many rounds are in the qualifying session?",
+        "answers": ["2 rounds (Q1, Q2)", "3 rounds (Q1, Q2, Q3)", "4 rounds", "5 rounds"],
+        "correct": 1
+    },
+    {
+        "question": "What is the longest circuit on the F1 calendar?",
+        "answers": ["Silverstone", "Spa-Francorchamps", "Suzuka", "Circuit of the Americas"],
+        "correct": 1
+    },
+    {
+        "question": "Which country has hosted the most F1 races?",
+        "answers": ["United Kingdom", "Italy", "United States", "Monaco"],
+        "correct": 1
+    },
+    {
+        "question": "How many power unit components make up an F1 engine?",
+        "answers": ["4 components", "6 components", "8 components", "10 components"],
+        "correct": 1
+    },
+    {
+        "question": "What is the maximum fuel capacity allowed in an F1 car?",
+        "answers": ["80 liters", "100 liters", "110 liters", "120 liters"],
+        "correct": 2
+    },
+    {
+        "question": "Which tire manufacturer supplies F1?",
+        "answers": ["Michelin", "Bridgestone", "Pirelli", "Goodyear"],
+        "correct": 2
+    },
+    {
+        "question": "What does a black flag with an orange circle mean?",
+        "answers": ["Disqualification", "Warning", "Mechanical problem", "Pit stop required"],
+        "correct": 2
+    },
+    {
+        "question": "How many constructors' championships has Ferrari won?",
+        "answers": ["12", "14", "16", "18"],
+        "correct": 2
+    },
+    {
+        "question": "What is the name of Monaco's most famous corner?",
+        "answers": ["Parabolica", "Casino Square", "Eau Rouge", "Copse"],
+        "correct": 1
+    },
+    {
+        "question": "How fast can an F1 car accelerate from 0-100 km/h?",
+        "answers": ["1.5 seconds", "2.0 seconds", "2.6 seconds", "3.0 seconds"],
+        "correct": 2
+    },
+    {
+        "question": "Which circuit is the shortest on the calendar?",
+        "answers": ["Monaco", "Zandvoort", "Hungary", "Austria"],
+        "correct": 0
+    },
+    {
+        "question": "What year did F1 introduce the hybrid power units?",
+        "answers": ["2010", "2012", "2014", "2016"],
+        "correct": 2
+    }
+]
