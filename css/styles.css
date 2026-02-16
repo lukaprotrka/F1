@@ -556,6 +556,42 @@ a {
     color: var(--text-secondary);
 }
 
+/* Two-column presentation for race weekend formats */
+.race-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    align-items: start;
+    margin: 2rem auto;
+}
+
+.race-column {
+    background: transparent;
+}
+
+.race-column .column-title {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+    font-weight: 800;
+}
+
+/* Make nested timelines fill the column and remove the max-width */
+.race-column .timeline {
+    max-width: none;
+    margin: 0;
+}
+
+/* Responsive: stack columns on narrow screens */
+@media (max-width: 900px) {
+    .race-columns {
+        grid-template-columns: 1fr;
+    }
+    .timeline::before {
+        left: 20px;
+    }
+}
+
 /* ===================================
    Tire Grid
    =================================== */
