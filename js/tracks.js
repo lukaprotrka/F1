@@ -89,13 +89,19 @@ function showTrackDetails(track) {
     
     trackDetail.innerHTML = `
         <h2>${track.name}</h2>
+        
         <div style="margin: 2rem 0;">
             <p style="font-size: 1.2rem; color: var(--text-secondary); margin-bottom: 1rem;">
                 📍 ${track.location}
             </p>
-            <p style="font-size: 1rem; color: var(--accent-color); margin-bottom: 2rem;">
-                Race Date: ${formatDate(track.date)}
-            </p>
+            <div style="margin-top: 2rem; text-align: center;">
+                <img 
+                    src="${track.image}" 
+                    alt="${track.name}" 
+                    style="width: 100%; max-width: 600px; border-radius: 16px; margin-top: 1rem;"
+                >
+            </div>
+            
         </div>
         
         <div style="background: var(--bg-secondary); padding: 2rem; margin-bottom: 2rem; border-left: 4px solid var(--accent-color); border-radius: 12px;">
@@ -119,6 +125,9 @@ function showTrackDetails(track) {
                 </div>
             </div>
         </div>
+        <p style="font-size: 1rem; color: var(--accent-color); margin-bottom: 2rem;">
+                Race Date: ${formatDate(track.date)}
+        </p>
         
         <div style="margin-bottom: 2rem;">
             <h3 style="margin-bottom: 1rem;">About This Circuit</h3>
@@ -130,13 +139,7 @@ function showTrackDetails(track) {
             <p style="color: var(--text-secondary);">${track.lapRecord}</p>
         </div>
 
-        <div style="margin-top: 2rem; text-align: center;">
-            <img 
-                src="${track.image}" 
-                alt="${track.name}" 
-                style="width: 100%; max-width: 600px; border-radius: 16px; margin-top: 1rem;"
-            >
-        </div>
+        
     `;
     
     modal.classList.add('active');

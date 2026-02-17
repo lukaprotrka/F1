@@ -22,6 +22,7 @@ async function loadQuiz() {
 function setupQuizButtons() {
     const startBtn = document.getElementById('startQuiz');
     const retakeBtn = document.getElementById('retakeQuiz');
+    const backBtn = document.getElementById('backToQuizIntro');
     
     if (startBtn) {
         startBtn.addEventListener('click', startQuiz);
@@ -29,6 +30,10 @@ function setupQuizButtons() {
     
     if (retakeBtn) {
         retakeBtn.addEventListener('click', startQuiz);
+    }
+    
+    if (backBtn) {
+        backBtn.addEventListener('click', backToQuizIntro);
     }
 }
 
@@ -61,6 +66,12 @@ function startQuiz() {
     
     // Show first question
     showQuestion();
+}
+
+function backToQuizIntro() {
+    // Hide results and show quiz intro
+    document.getElementById('quizResults').style.display = 'none';
+    document.getElementById('quizStart').style.display = 'block';
 }
 
 function showQuestion() {
