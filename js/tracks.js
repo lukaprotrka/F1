@@ -129,21 +129,19 @@ function showTrackDetails(track) {
             <h4 style="margin-bottom: 0.5rem;">⏱️ Lap Record</h4>
             <p style="color: var(--text-secondary);">${track.lapRecord}</p>
         </div>
-        
-        <div style="margin-top: 2rem; padding: 1.5rem; background: var(--bg-tertiary); border-left: 4px solid var(--success-color); border-radius: 12px;">
-            <h4 style="margin-bottom: 1rem;">🎮 Virtual Lap</h4>
-            <p style="color: var(--text-secondary); margin-bottom: 1rem;">Experience the circuit layout and key corners</p>
-            <div id="trackAnimation" style="width: 100%; height: 150px; background: var(--bg-primary); border: 2px solid var(--accent-color); position: relative; overflow: hidden; border-radius: 10px;">
-                <div id="lapCar" style="width: 20px; height: 20px; background: var(--accent-color); border-radius: 50%; position: absolute; top: 50%; left: 0; transform: translateY(-50%);"></div>
-            </div>
-            <button class="btn btn-secondary" onclick="animateLap()" style="margin-top: 1rem; width: 100%;">
-                Start Lap Animation
-            </button>
+
+        <div style="margin-top: 2rem; text-align: center;">
+            <img 
+                src="${track.image}" 
+                alt="${track.name}" 
+                style="width: 100%; max-width: 600px; border-radius: 16px; margin-top: 1rem;"
+            >
         </div>
     `;
     
     modal.classList.add('active');
 }
+
 
 // Close modal
 document.getElementById('closeTrackModal').addEventListener('click', function() {
