@@ -604,9 +604,10 @@ a {
    =================================== */
 .tire-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
+    align-items: start;
 }
 
 .tire-card {
@@ -669,7 +670,7 @@ a {
 @keyframes slideDown {
     from {
         opacity: 0;
-        transform: translateY(-10px);
+        transform: translateY(-100px);
     }
     to {
         opacity: 1;
@@ -749,6 +750,72 @@ a {
     height: 80px;
     margin-bottom: 1rem;
 }
+
+.penalty-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+    align-items: start;
+}
+
+.penalty-card {
+    background: var(--bg-secondary);
+    padding: 2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all var(--transition-speed) var(--transition-easing);
+    border: 2px solid transparent;
+    border-radius: 16px;
+}
+
+.penalty-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-color);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.penalty-card h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.penalty-card p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+}
+
+.penalty-desc {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.penalty-details {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--bg-tertiary);
+    display: none;
+}
+
+.penalty-card.active .penalty-details {
+    display: block;
+    animation: slideDown 0.3s var(--transition-easing);
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
 
 /* ===================================
    Drivers Section

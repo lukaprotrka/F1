@@ -128,6 +128,45 @@ const flagData = [
     },
 ];
 
+const penaltyData = [
+    {
+        name: '5 / 10s Time Penalty',
+        description: 'Aditional time is added to the drivers total time at end of a race.',
+        usage: 'Given for infractions like track limits or unsafe releases.',
+        impact: 'Loses positions if close to rivals.'
+    },
+    {
+        name: 'Drive-Through Penalty',
+        description: 'Driver must go through pit lane without stopping while obeying all pit lane speed limits.',
+        usage: 'Medium breaches (yellow flag ignore, pit speed)',
+        impact: 'Loses significant time, often 20+ seconds.'
+    },
+    {
+        name: 'Pit Lane Speed Limit Penalty',
+        description: 'Driver must spend extra time in the pit lane.(3s per km/h over limit)',
+        usage: 'Speeding in pit lane (>80 km/h)',
+        impact: 'Minimal but stacks up if repeated.'
+    },
+    {
+        name: 'Stop-Go Penalty',
+        description: 'Driver serves the penalty by stopping in their pit box for a set time before the mechanics can work on the car.',
+        usage: 'Serious incidents (contact, blocking)',
+        impact: 'Loses significant time, often 30+ seconds.'
+    },
+    {
+        name: 'Grid Drop Penalty',
+        description: 'Driver must drop a number of grid positions (e.g., 3 positions).',
+        usage: 'Engine changes, car damage to others',
+        impact: 'Loses starting position in the next race (up to 20+ places back)'
+    },
+    {
+        name: 'Disqualification',
+        description: 'Driver is fully excluded from participating in the race / race results.',
+        usage: 'Severe infractions (e.g., dangerous driving, intentional damage, tech violations)',
+        impact: 'Driver is removed from the race and cannot score points. Often also includes investigation for further sanctions.'
+    },
+];
+
 function loadTires() {
     const tireGrid = document.getElementById('tireGrid');
     if (!tireGrid) return;
@@ -165,6 +204,44 @@ function loadTires() {
         tireGrid.appendChild(tireCard);
     });
 }
+
+function loadPenalties() {
+    const penaltyGrid = document.getElementById('penaltyGrid');
+    if (!penaltyGrid) return;
+    
+    penaltyGrid.innerHTML = '';
+    
+    penaltyData.forEach(penalty => {
+        const penaltyCard = document.createElement('div');
+        penaltyCard.className = 'penalty-card';
+        
+        penaltyCard.innerHTML = `
+            <h3>${penalty.name}</h3>
+            <p class="penalty-desc">${penalty.description}</p>
+            <div class="penalty-details">
+                <p><strong>Usage:</strong> ${penalty.usage}</p>
+                <p><strong>Impact:</strong> ${penalty.impact}</p>
+            </div>
+        `;
+        
+        // Toggle details on click (same interactive behavior as tires)
+        penaltyCard.addEventListener('click', function() {
+            document.querySelectorAll('.penalty-card').forEach(card => {
+                if (card !== penaltyCard) {
+                    card.classList.remove('active');
+                }
+            });
+            
+            this.classList.toggle('active');
+        });
+        
+        penaltyGrid.appendChild(penaltyCard);
+    });
+}
+// Initialize when DOM loads
+document.addEventListener('DOMContentLoaded', function() {
+    loadPenalties();
+});
 
 
 function loadFlags() {
