@@ -1327,60 +1327,7 @@ a {
     animation: slideDown 0.3s var(--transition-easing);
 }
 
-/* ===================================
-   Car Guide
-   =================================== */
-.car-guide-container {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 3rem;
-    align-items: start;
-}
 
-.car-display {
-    background: var(--bg-secondary);
-    padding: 3rem;
-    border: 2px solid var(--accent-color);
-    border-radius: 16px;
-}
-
-.car-svg {
-    width: 100%;
-    height: auto;
-}
-
-.car-part {
-    cursor: pointer;
-    transition: all var(--transition-speed) var(--transition-easing);
-}
-
-.car-part:hover {
-    filter: drop-shadow(0 0 10px var(--accent-color));
-    transform: scale(1.05);
-}
-
-.car-part.active {
-    filter: drop-shadow(0 0 15px var(--accent-color));
-}
-
-.car-info {
-    background: var(--bg-secondary);
-    padding: 2rem;
-    border-left: 4px solid var(--accent-color);
-    position: sticky;
-    top: 100px;
-    border-radius: 12px;
-}
-
-.car-info h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-.car-info p {
-    color: var(--text-secondary);
-    line-height: 1.8;
-}
 
 /* ===================================
    Contact Section
@@ -1568,10 +1515,6 @@ a {
    Responsive Design
    =================================== */
 @media (max-width: 1024px) {
-    .car-guide-container {
-        grid-template-columns: 1fr;
-    }
-    
     .contact-grid {
         grid-template-columns: 1fr;
     }
@@ -1675,15 +1618,6 @@ a {
     .tire-card,
     .flag-card {
         padding: 1.5rem;
-    }
-    
-    .car-guide-container {
-        grid-template-columns: 1fr;
-    }
-    
-    .car-info {
-        position: static;
-        margin-top: 2rem;
     }
     
     .contact-grid {
