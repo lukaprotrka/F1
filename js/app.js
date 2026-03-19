@@ -28,10 +28,17 @@ function initApp() {
 }
 
 // Navigate to page function (shared across modules)
-function navigateToPage(pageId) {
-    // Update URL hash
-    window.location.hash = pageId;
-    
+// `pushHistory` controls whether we push a new history entry (used for normal navigation)
+// or just navigate without affecting history (used for popstate/back behavior).
+function navigateToPage(pageId, pushHistory = true) {
+    // Update URL/History without browser auto-scrolling to the anchor.
+    if (pushHistory) {
+        const newHash = '#' + pageId;
+        if (window.location.hash !== newHash) {
+            history.pushState({ pageId }, '', newHash);
+        }
+    }
+
     // Hide all pages
     const pages = document.querySelectorAll('.page');
     pages.forEach(page => {
@@ -53,12 +60,20 @@ function navigateToPage(pageId) {
         }
     });
     
-    // Scroll to top
+    // Scroll to top (ensures we don't end up slightly offset)
     window.scrollTo({ top: 0, behavior: 'smooth' });
     
     // Close mobile menu if open
     const navMenu = document.getElementById('navMenu');
-    navMenu.classList.remove('active');
+    if (navMenu) {
+        navMenu.classList.remove('active');
+    }
+
+    // Reset mobile hamburger state
+    const navToggle = document.getElementById('navToggle');
+    if (navToggle) {
+        navToggle.classList.remove('active');
+    }
 }
 
 // Utility function to format dates
