@@ -128,7 +128,7 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 1002;
     background: var(--bg-primary);
     border-bottom: 2px solid var(--accent-color);
     transition: all var(--transition-speed) var(--transition-easing);
@@ -1536,6 +1536,7 @@ a {
         width: 100%;
         height: calc(100vh - 80px);
         background: var(--bg-primary);
+        z-index: 1003;
         flex-direction: column;
         padding: 1.5rem;
         transition: left var(--transition-speed) var(--transition-easing);
@@ -1554,6 +1555,7 @@ a {
     
     .nav-toggle {
         display: flex;
+        z-index: 1002;
     }
     
     .container {
@@ -1563,8 +1565,11 @@ a {
     .hero {
         padding: 2rem 1rem;
         min-height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-    
+
     .hero-title {
         font-size: clamp(1.8rem, 6vw, 3rem);
         margin-bottom: 1rem;
@@ -1579,8 +1584,11 @@ a {
         position: static;
         transform: none;
         margin-top: 2rem;
+        display: flex;
         flex-direction: column;
-        gap: 1.5rem;
+        align-items: center;
+        gap: 1.25rem;
+        width: 100%;
     }
     
     .stat-value {
