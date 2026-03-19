@@ -22,6 +22,8 @@ function displayTracks(tracks) {
     if (!tracksGrid) return;
     
     tracksGrid.innerHTML = '';
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
     
     tracks.forEach(track => {
         const trackCard = document.createElement('div');
@@ -31,8 +33,15 @@ function displayTracks(tracks) {
         const month = date.getMonth() + 1;
         trackCard.setAttribute('data-month', month);
         
+        // Provjera je li utrka prošla
+        const isPast = date < today;
+        if (isPast) {
+            trackCard.classList.add('past-race');
+        }
+        
         trackCard.innerHTML = `
             <div class="track-date">${formatDate(track.date)}</div>
+            ${isPast ? '<span class="race-status-badge">Finished</span>' : ''}
             <h3 class="track-name">${track.name}</h3>
             <p class="track-location">📍 ${track.location}</p>
             <div class="track-info">
@@ -42,7 +51,6 @@ function displayTracks(tracks) {
             </div>
         `;
         
-        // Click to show details
         trackCard.addEventListener('click', function() {
             showTrackDetails(track);
         });

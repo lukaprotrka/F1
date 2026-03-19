@@ -1072,6 +1072,34 @@ a {
     color: var(--text-secondary);
 }
 
+.track-card.past-race {
+    opacity: 0.5;
+    filter: grayscale(60%);
+    position: relative;
+}
+
+.track-card.past-race::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: rgba(0, 0, 0, 0.08);
+    pointer-events: none;
+}
+
+.race-status-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: rgba(128, 128, 128, 0.2);
+    color: var(--text-secondary);
+    padding: 2px 8px;
+    border-radius: 20px;
+    margin-bottom: 0.5rem;
+}
+
 /* ===================================
    Modal
    =================================== */
