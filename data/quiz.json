@@ -98,5 +98,105 @@
         "question": "What year did F1 introduce the hybrid power units?",
         "answers": ["2010", "2012", "2014", "2016"],
         "correct": 2
+    },
+    {
+        "question": "Who holds the record for most F1 world championships?",
+        "answers": ["Ayrton Senna", "Michael Schumacher", "Lewis Hamilton", "Sebastian Vettel"],
+        "correct": 2
+    },
+    {
+        "question": "What is the purpose of the safety car?",
+        "answers": ["To start the race", "To slow down the race during incidents", "To assist pit stops", "To replace damaged cars"],
+        "correct": 1
+    },
+    {
+        "question": "Which session determines the starting grid for the race?",
+        "answers": ["Practice", "Sprint", "Qualifying", "Warm-up"],
+        "correct": 2
+    },
+    {
+        "question": "What does 'pole position' mean?",
+        "answers": ["Last place on grid", "Fastest lap in race", "First place on starting grid", "Pit lane start"],
+        "correct": 2
+    },
+    {
+        "question": "How many points does 2nd place receive?",
+        "answers": ["15 points", "18 points", "20 points", "22 points"],
+        "correct": 1
+    },
+    {
+        "question": "What is ERS in Formula 1?",
+        "answers": ["Engine Racing System", "Energy Recovery System", "Electronic Race Setup", "Enhanced Racing Speed"],
+        "correct": 1
+    },
+    {
+        "question": "Which flag indicates the race has finished?",
+        "answers": ["Red flag", "Yellow flag", "Checkered flag", "Black flag"],
+        "correct": 2
+    },
+    {
+        "question": "How many free practice sessions are there in a standard race weekend?",
+        "answers": ["1", "2", "3", "4"],
+        "correct": 2
+    },
+    {
+        "question": "What does a red flag mean?",
+        "answers": ["Danger ahead", "Race stopped", "Slow down", "Final lap"],
+        "correct": 1
+    },
+    {
+        "question": "Which team is known as the 'Silver Arrows'?",
+        "answers": ["Ferrari", "Mercedes", "McLaren", "Red Bull"],
+        "correct": 1
+    },
+    {
+        "question": "What is the speed limit in the pit lane (typical)?",
+        "answers": ["60 km/h", "80 km/h", "100 km/h", "120 km/h"],
+        "correct": 1
+    },
+    {
+        "question": "How many laps must a driver complete to be classified?",
+        "answers": ["50%", "70%", "75%", "90%"],
+        "correct": 3
+    },
+    {
+        "question": "What is the halo device for?",
+        "answers": ["Aerodynamics", "Driver protection", "Cooling", "Fuel efficiency"],
+        "correct": 1
+    },
+    {
+        "question": "What happens if it rains during a race?",
+        "answers": ["Race stops immediately", "Drivers switch to wet/intermediate tires", "Race is cancelled", "Cars slow to 50 km/h"],
+        "correct": 1
+    },
+    {
+        "question": "Which tire is used for light rain conditions?",
+        "answers": ["Soft", "Hard", "Intermediate", "Full Wet"],
+        "correct": 2
+    },
+    {
+        "question": "What is undercut in F1 strategy?",
+        "answers": ["Overtaking on track", "Pitting earlier to gain advantage", "Driving slower intentionally", "Skipping pit stop"],
+        "correct": 1
+    },
+    {
+        "question": "How many drivers per team in F1?",
+        "answers": ["1", "2", "3", "4"],
+        "correct": 1
+    },
+    {
+        "question": "What is a formation lap?",
+        "answers": ["Last lap of race", "Warm-up lap before start", "Lap after pit stop", "Fastest lap"],
+        "correct": 1
+    },
+    {
+        "question": "What does DNF stand for?",
+        "answers": ["Did Not Finish", "Driver Not Fast", "Did Not Fuel", "Driver Needs Fix"],
+        "correct": 0
+    },
+    {
+        "question": "What is parc fermé?",
+        "answers": ["Pit stop area", "Restricted area where cars can't be modified", "Starting grid", "Finish line zone"],
+        "correct": 1
     }
 ]

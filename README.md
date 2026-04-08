@@ -56,7 +56,6 @@ A comprehensive, interactive guide to Formula 1 racing built with pure HTML, CSS
 
 ## 🎨 Design Features
 
-- **Dark/Light Theme Toggle**: Persistent theme selection
 - **Responsive Design**: Works on desktop, tablet, and mobile
 - **Smooth Animations**: CSS transitions and animations throughout
 - **Racing-Inspired Aesthetics**: Red accents, bold typography, checkered patterns
@@ -71,12 +70,11 @@ f1-website/
 ├── index.html              # Main HTML file
 │
 ├── css/
-│   └── styles.css          # All styling (dark/light themes, responsive)
+│   └── styles.css          # All styling (responsive)
 │
 ├── js/
 │   ├── app.js              # Main app initialization
 │   ├── navigation.js       # Page navigation & routing
-│   ├── theme.js            # Dark/light mode toggle
 │   ├── guide.js            # Beginner guide features
 │   ├── drivers.js          # Drivers section logic
 │   ├── tracks.js           # Tracks calendar & details
@@ -125,7 +123,6 @@ f1-website/
 ## 💾 Data Storage
 
 The website uses browser localStorage for:
-- **Theme preference**: Dark/light mode selection
 - **Quiz statistics**: Best score and total quizzes taken
 - **Contact submissions**: Form data (demonstration purposes)
 
@@ -225,7 +222,6 @@ Edit CSS variables in `css/styles.css`:
 ## 🏁 Features Checklist
 
 - [x] Fully responsive design
-- [x] Dark/light theme toggle
 - [x] SPA-style navigation
 - [x] Interactive tire guide
 - [x] Driver filtering by team
