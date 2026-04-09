@@ -198,5 +198,105 @@
         "question": "What is parc fermé?",
         "answers": ["Pit stop area", "Restricted area where cars can't be modified", "Starting grid", "Finish line zone"],
         "correct": 1
+    },
+    {
+        "question": "Which driver number is reserved for the reigning world champion?",
+        "answers": ["0", "1", "99", "No special number"],
+        "correct": 1
+    },
+    {
+        "question": "What is the maximum number of races in a season (approx modern era)?",
+        "answers": ["18", "20", "22", "24"],
+        "correct": 3
+    },
+    {
+        "question": "What does a virtual safety car (VSC) do?",
+        "answers": ["Stops the race", "Forces drivers to maintain a delta time", "Sends cars to pit", "Restarts the race"],
+        "correct": 1
+    },
+    {
+        "question": "How many tire compounds are typically brought to a race weekend?",
+        "answers": ["2", "3", "4", "5"],
+        "correct": 1
+    },
+    {
+        "question": "What is the pit stop used for?",
+        "answers": ["Changing tires and repairs", "Refueling only", "Driver change", "Engine swap"],
+        "correct": 0
+    },
+    {
+        "question": "What is slipstreaming?",
+        "answers": ["Driving off track", "Following closely to reduce air resistance", "Braking late", "Cutting corners"],
+        "correct": 1
+    },
+    {
+        "question": "Which session happens first in a race weekend?",
+        "answers": ["Qualifying", "Race", "Free Practice 1", "Sprint"],
+        "correct": 2
+    },
+    {
+        "question": "What is the main role of the race engineer?",
+        "answers": ["Drive the car", "Communicate with the driver and manage strategy", "Fix engines", "Control the track"],
+        "correct": 1
+    },
+    {
+        "question": "What is meant by 'track limits'?",
+        "answers": ["Speed restrictions", "Boundaries drivers must stay within", "Number of laps", "Pit lane rules"],
+        "correct": 1
+    },
+    {
+        "question": "What is the purpose of aerodynamic wings on an F1 car?",
+        "answers": ["Increase fuel efficiency", "Provide downforce", "Cool the engine", "Reduce tire wear"],
+        "correct": 1
+    },
+    {
+        "question": "Which condition requires full wet tires?",
+        "answers": ["Dry track", "Light rain", "Heavy rain", "Cold weather"],
+        "correct": 2
+    },
+    {
+        "question": "What is a sprint race?",
+        "answers": ["Short race that sets the grid", "Practice session", "Warm-up lap", "Qualifying round"],
+        "correct": 0
+    },
+    {
+        "question": "What is the main goal of qualifying?",
+        "answers": ["Score points", "Set fastest lap for grid position", "Test tires", "Save fuel"],
+        "correct": 1
+    },
+    {
+        "question": "What does a yellow flag indicate?",
+        "answers": ["Race finished", "Danger on track", "Pit stop required", "Driver disqualified"],
+        "correct": 1
+    },
+    {
+        "question": "What is the apex of a corner?",
+        "answers": ["Entry point", "Middle point closest to inside", "Exit point", "Start line"],
+        "correct": 1
+    },
+    {
+        "question": "What does a green flag signal?",
+        "answers": ["Race stopped", "Track clear", "Pit open", "Final lap"],
+        "correct": 1
+    },
+    {
+        "question": "What is oversteer?",
+        "answers": ["Front tires lose grip", "Rear tires lose grip", "Car goes too slow", "Engine failure"],
+        "correct": 1
+    },
+    {
+        "question": "What is understeer?",
+        "answers": ["Rear loses grip", "Front loses grip", "Too much speed", "Brake failure"],
+        "correct": 1
+    },
+    {
+        "question": "What is a fastest lap bonus point (if applicable)?",
+        "answers": ["Extra point for fastest race lap", "Extra lap added", "Free pit stop", "Grid penalty removed"],
+        "correct": 0
+    },
+    {
+        "question": "What is the purpose of the diffuser?",
+        "answers": ["Increase engine power", "Improve airflow under the car", "Cool brakes", "Store fuel"],
+        "correct": 1
     }
 ]

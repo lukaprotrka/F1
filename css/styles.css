@@ -854,6 +854,12 @@ a {
     gap: 2rem;
 }
 
+.drivers-grid.team-filtered {
+    grid-template-columns: repeat(2, 280px);
+    justify-content: center;
+    gap: 2rem;
+}
+
 .driver-card {
     background: var(--bg-secondary);
     overflow: hidden;
@@ -861,6 +867,7 @@ a {
     border: 2px solid transparent;
     position: relative;
     border-radius: 16px;
+    cursor: pointer;
 }
 
 .driver-card::before {
@@ -959,6 +966,70 @@ a {
     margin-right: 6px;
 }
 
+
+/* ===================================
+   Team Info Card
+   =================================== */
+.team-info-card {
+    background: var(--bg-secondary);
+    border: 2px solid var(--accent-color);
+    border-radius: 16px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 2rem;
+    align-items: center;
+    animation: fadeIn 0.5s ease;
+}
+
+.team-info-image {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 12px;
+    background: var(--bg-tertiary);
+    padding: 1rem;
+}
+
+.team-info-content h2 {
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.team-info-content p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.team-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.team-stat {
+    background: var(--bg-tertiary);
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.team-stat .stat-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--accent-color);
+    display: block;
+}
+
+.team-stat .stat-label {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-top: 0.5rem;
+}
 
 /* ===================================
    Tracks Section
@@ -1549,6 +1620,21 @@ a {
    =================================== */
 @media (max-width: 1024px) {
     .contact-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .team-info-card {
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+    
+    .team-info-image {
+        max-width: 100%;
+        height: 150px;
+    }
+    
+    .drivers-grid.team-filtered {
         grid-template-columns: 1fr;
     }
 }

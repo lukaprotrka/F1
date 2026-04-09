@@ -258,8 +258,23 @@ s<html lang="en">
                     </div>
                 </div>
 
+                <!-- Team Info Card -->
+                <div id="teamInfoCard" class="team-info-card" style="display: none;">
+                    <!-- Team information will be inserted here -->
+                </div>
+
                 <div class="drivers-grid" id="driversGrid">
                     <!-- Drivers will be loaded from JSON -->
+                </div>
+            </div>
+
+            <!-- Driver Detail Modal -->
+            <div class="modal" id="driverModal">
+                <div class="modal-content">
+                    <button class="modal-close" id="closeDriverModal">&times;</button>
+                    <div id="driverDetail">
+                        <!-- Driver details will be inserted here -->
+                    </div>
                 </div>
             </div>
         </section>
@@ -280,6 +295,7 @@ s<html lang="en">
                     <button class="filter-btn" data-month="9">September</button>
                     <button class="filter-btn" data-month="10">October</button>
                     <button class="filter-btn" data-month="11">November</button>
+                    <button class="filter-btn" data-month="12">December</button>
                 </div>
 
                 <div class="tracks-grid" id="tracksGrid">
