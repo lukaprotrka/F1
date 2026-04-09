@@ -1058,25 +1058,9 @@ a {
     border-radius: 12px;
 }
 
-.track-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 4px;
-    height: 0;
-    background: var(--accent-color);
-    transition: height var(--transition-speed) var(--transition-easing);
-}
-
-.track-card:hover::before {
-    height: 100%;
-}
-
 .track-card:hover {
     transform: translateX(10px);
     border-left-color: var(--accent-color);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .track-date {
@@ -1884,5 +1868,11 @@ a {
     .footer-content {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+    }
+    
+    .flag-image {
+        width: 180px;
+        height: 135px;
+        object-fit: contain;
     }
 }

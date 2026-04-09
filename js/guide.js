@@ -255,7 +255,7 @@ function loadFlags() {
         flagCard.className = 'flag-card';
         
         flagCard.innerHTML = `
-            <img class="tire-icon" src="${flag.image}" alt="${flag.name} tire">
+            <img class="flag-image" src="${flag.image}" alt="${flag.name} flag">
             <h4>${flag.name}</h4>
             <p>${flag.description}</p>
         `;

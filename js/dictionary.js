@@ -13,12 +13,36 @@ const dictionaryTerms = [
         definition: 'The innermost point of a corner. Hitting the apex correctly is crucial for carrying maximum speed through a turn. Professional drivers can hit the apex to within centimeters lap after lap.'
     },
     {
+        term: 'Backmarker',
+        definition: 'A slower car that is about to be lapped by the leaders. Backmarkers must obey blue flags and let faster cars pass safely without interfering with the race.'
+    },
+    {
+        term: 'Balance',
+        definition: 'Refers to how the car behaves between oversteer and understeer. A well-balanced car is predictable and allows drivers to push with confidence.'
+    },
+    {
         term: 'Blistering',
         definition: 'Tire damage caused by overheating. When tires get too hot, the rubber can separate from the carcass, creating blisters. This reduces grip and requires a pit stop for fresh tires.'
     },
     {
+        term: 'Brake Bias',
+        definition: 'The distribution of braking force between the front and rear wheels. Drivers adjust brake bias to optimize braking performance and tire wear.'
+    },
+    {
+        term: 'CFD (Computational Fluid Dynamics)',
+        definition: 'Computer simulations used to model airflow around the car. Teams use CFD alongside wind tunnels to develop aerodynamic performance.'
+    },
+    {
         term: 'Chicane',
         definition: 'A tight sequence of corners in alternate directions, usually used to slow cars down. Famous chicanes include Monza\'s Variante Ascari and the final chicane at Montreal.'
+    },
+    {
+        term: 'Clean Air',
+        definition: 'Undisturbed airflow with no cars ahead. In clean air, cars achieve maximum aerodynamic efficiency and performance.'
+    },
+    {
+        term: 'Cockpit',
+        definition: 'The section of the car where the driver sits. It includes the steering wheel, controls, and safety features like the halo.'
     },
     {
         term: 'Deg (Degradation)',
@@ -37,8 +61,24 @@ const dictionaryTerms = [
         definition: 'Aerodynamic force pushing the car down onto the track. More downforce means faster cornering speeds but lower top speed. Teams constantly balance downforce vs. drag.'
     },
     {
+        term: 'DRS Zone',
+        definition: 'A designated section of track where drivers can activate DRS to reduce drag and increase speed for overtaking.'
+    },
+    {
+        term: 'Drive-through Penalty',
+        definition: 'A penalty where a driver must drive through the pit lane without stopping. It results in significant time loss.'
+    },
+    {
         term: 'ERS (Energy Recovery System)',
         definition: 'Hybrid system that recovers energy from braking and exhaust heat. The MGU-K harvests energy from the rear axle, while the MGU-H recovers from the turbocharger. Drivers can deploy this for power boosts.'
+    },
+    {
+        term: 'Engine Map',
+        definition: 'Pre-set configurations that control how the engine delivers power. Teams adjust engine maps to balance performance and reliability.'
+    },
+    {
+        term: 'Flat Out',
+        definition: 'Driving at full throttle with maximum speed. Drivers go flat out on straights and some high-speed corners.'
     },
     {
         term: 'Flat Spot',
@@ -49,20 +89,56 @@ const dictionaryTerms = [
         definition: 'The lap before the race start where cars form up on the grid. Drivers weave to warm their tires and test their brakes. The race officially starts when they complete this lap.'
     },
     {
+        term: 'Front Wing',
+        definition: 'Aerodynamic component at the front of the car that directs airflow and generates downforce. It is crucial for cornering performance.'
+    },
+    {
         term: 'Graining',
         definition: 'When small pieces of rubber peel off the tire surface, reducing grip. This usually happens when tires are too cold or used outside their optimal temperature window.'
+    },
+    {
+        term: 'Grid Penalty',
+        definition: 'A penalty that moves a driver back on the starting grid. Usually given for rule infringements or exceeding engine component limits.'
+    },
+    {
+        term: 'Ground Effect',
+        definition: 'Aerodynamic principle where airflow under the car creates suction, increasing downforce. Reintroduced heavily in 2022 regulations.'
     },
     {
         term: 'Halo',
         definition: 'Titanium protection device above the cockpit, introduced in 2018. The halo has already saved multiple lives in crashes. It can withstand the weight of a double-decker bus.'
     },
     {
+        term: 'In-lap',
+        definition: 'The lap a driver completes before entering the pits. Managing tire performance on the in-lap is key for strategy.'
+    },
+    {
+        term: 'Lift and Coast',
+        definition: 'Technique where drivers lift off the throttle early before braking to save fuel and reduce tire wear.'
+    },
+    {
+        term: 'Livery',
+        definition: 'The color scheme and design of a car. Teams often change liveries for special events or sponsors.'
+    },
+    {
         term: 'Marbles',
         definition: 'Pieces of rubber debris off the racing line. Marbles are extremely slippery and can cause cars to lose grip. They accumulate throughout the race as tires shed rubber.'
     },
     {
+        term: 'MGU-H',
+        definition: 'Motor Generator Unit - Heat. Recovers energy from exhaust gases and improves turbo efficiency.'
+    },
+    {
+        term: 'MGU-K',
+        definition: 'Motor Generator Unit - Kinetic. Recovers energy from braking and redeploys it for extra power.'
+    },
+    {
         term: 'Out-lap',
         definition: 'The lap taken to exit the pits and return to the track. Teams analyze out-laps to understand how quickly tires come up to temperature. A good out-lap is crucial after pit stops.'
+    },
+    {
+        term: 'Overcut',
+        definition: 'Strategy opposite of undercut, where a driver stays out longer to gain advantage on fresher tires later.'
     },
     {
         term: 'Oversteer',
@@ -71,6 +147,10 @@ const dictionaryTerms = [
     {
         term: 'Parc Fermé',
         definition: 'French for "closed park". After qualifying, cars must remain in parc fermé overnight where no setup changes are allowed. This ensures cars race in qualifying specification.'
+    },
+    {
+        term: 'Pit Wall',
+        definition: 'Area where team engineers and strategists monitor the race and communicate with the driver.'
     },
     {
         term: 'Porpoising',
