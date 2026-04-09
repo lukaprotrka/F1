@@ -49,6 +49,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -1717,7 +1718,8 @@ a {
     .drivers-grid,
     .tracks-grid,
     .tire-grid,
-    .flags-grid {
+    .flags-grid,
+    .penalty-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
@@ -1727,7 +1729,8 @@ a {
     .driver-card,
     .track-card,
     .tire-card,
-    .flag-card {
+    .flag-card,
+    .penalty-card {
         padding: 1.5rem;
     }
     
@@ -1798,14 +1801,16 @@ a {
     .intro-card h3,
     .concept-card h3,
     .track-card h3,
-    .tire-card h3 {
+    .tire-card h3,
+    .penalty-card h3 {
         font-size: 1.2rem;
     }
     
     .intro-card p,
     .concept-card p,
     .track-card p,
-    .tire-card p {
+    .tire-card p,
+    .penalty-card p {
         font-size: 0.9rem;
     }
     
@@ -1874,5 +1879,16 @@ a {
         width: 180px;
         height: 135px;
         object-fit: contain;
+    }
+    
+    /* Prevent horizontal scrolling on mobile */
+    * {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
     }
 }
