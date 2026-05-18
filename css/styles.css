@@ -687,6 +687,11 @@ a {
     border-left: 4px solid transparent;
     border-radius: 12px;
 }
+.flag-image {
+        width: 180px;
+        height: 135px;
+        object-fit: contain;
+    }
 
 .flag-card:hover {
     transform: translateX(10px);
@@ -1875,11 +1880,7 @@ a {
         gap: 1.5rem;
     }
     
-    .flag-image {
-        width: 180px;
-        height: 135px;
-        object-fit: contain;
-    }
+    
     
     /* Prevent horizontal scrolling on mobile */
     * {

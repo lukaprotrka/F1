@@ -31,7 +31,7 @@
     },
     {
         "question": "What is the minimum weight for an F1 car with driver?",
-        "answers": ["698 kg", "752 kg", "798 kg", "825 kg"],
+        "answers": ["698 kg", "752 kg", "768 kg", "825 kg"],
         "correct": 2
     },
     {
